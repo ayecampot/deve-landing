@@ -13,19 +13,19 @@
 
 <body>
   <header>
-    <a href="#" class="brand"
-      ><img src="./assets/lazo-purpura.png" width="15%" alt=""
+    <a href="./index.html" class="brand"
+      ><img src="./assets/lazo-purpura.png" width="15%" alt="icono lazo rosa de tela"
     /></a>
     <nav>
       <ul class="menu-md">
-        <li class="active"><a href="#">Inicio</a></li>
+        <li class="active"><a href="./index.html">Inicio</a></li>
         <li><a href="#contacto">Contacto</a></li>
-        <li><a href="#">Información</a></li>
+        <li><a href="#informacion">Información</a></li>
       </ul>
     </nav>
   </header>
-  <main>
-    <img class="main-img" src="./assets/mujer-sentada.png"  alt="" />
+  <main id="informacion">
+    <img class="main-img" src="./assets/mujer-sentada.png"  alt="illustración de mujer sentada meditando con" />
     <div class="text-margin">
       <h1>Octubre rosa</h1>
       <h2 class="text-center">¿Qué debemos recordar?</h2>
@@ -39,6 +39,7 @@
     <form>
       <h2>Contactanos para recibir información</h2>
       <div class="large-group">
+
         <div class="small-group">
           <label for="firstname">Nombre</label>
           <input id="firstname" type="text" name="firstname" />
@@ -64,8 +65,9 @@
           <label for="message">Mensaje</label>
           <textarea id="message" type="text" name="message"></textarea>
         </div>
-
+        <div class="btn-submit">
         <input id="submit" class="btn" type="submit" name="submit" />
+      </div>
       </div>
     </form>
   </section>
@@ -85,6 +87,5 @@
       </div>
     </div>
   </footer>
-  <script>let scroll = new SmoothScroll('a[href*="#"]');</script>
 </body>
 

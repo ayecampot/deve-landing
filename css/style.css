@@ -132,10 +132,11 @@ textarea {
   height: 100px;
 }
 .btn {
-    color:#fff;
+  justify-self: center;
+  color:#fff;
   background-color: var(--pink);
   padding: 12px 15px;
-  width: 100%;
+  width:50%;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -148,6 +149,13 @@ textarea {
 .btn:hover {
   background-color: #e0519c;
   transform: scale(0.9);
+}
+
+.btn-submit{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
 }
 
 /* FOOTER */
@@ -245,6 +253,14 @@ footer {
   }
   .small-group {
     width: 45%;
+   
+  }
+
+  .btn-submit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
   }
   form {
     padding: 2.5em;
