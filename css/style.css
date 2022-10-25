@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +12,7 @@
 html {
   --clr-grey-800: #333;
   --clr-grey-200: #f3f3f3;
-  --pink: #E22D8C;
+  --pink: #e22d8c;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
@@ -27,23 +28,23 @@ header {
   padding: 1em;
 }
 
-.brand{
-    transition: all 0.2s ease-in-out;
+.brand {
+  transition: all 0.2s ease-in-out;
 }
 
-.brand:hover{
-    transform: scale(0.9);
+.brand:hover {
+  transform: scale(0.9);
 }
 
-.menu-md li{
-color: var(--clr-grey-800);
-font-weight: 600;
-} 
+.menu-md li {
+  color: var(--clr-grey-800);
+  font-weight: 600;
+}
 
-.menu-md li:hover{
-color: var(--pink);
-font-weight: 600;
-} 
+.menu-md li:hover {
+  color: var(--pink);
+  font-weight: 600;
+}
 
 /* MAIN */
 main {
@@ -54,25 +55,21 @@ main {
   flex-wrap: wrap;
 }
 
-
-
-.main-img{
-    width: 90%;
-    margin: 1rem;
-    transition: all 0.2s ease-in-out;
+.main-img {
+  width: 90%;
+  margin: 1rem;
+  transition: all 0.2s ease-in-out;
 }
 
-.main-img:hover{
-    transform: scale(1.05);
+.main-img:hover {
+  transform: scale(1.05);
 }
 
-.text-margin{
-margin: 0.9rem;
+.text-margin {
+  margin: 0.9rem;
 }
 
-
-
-/* fORM */
+/* FORM */
 
 form {
   background-color: white;
@@ -83,8 +80,8 @@ form {
   padding: 1.5em;
 }
 
-h1{
-    color:var(--pink);
+h1 {
+  color: var(--pink);
 }
 
 h2 {
@@ -95,9 +92,8 @@ h2 {
 }
 
 .text-center {
-    text-align: left;
-
-  }
+  text-align: left;
+}
 
 label {
   display: block;
@@ -133,10 +129,10 @@ textarea {
 }
 .btn {
   justify-self: center;
-  color:#fff;
+  color: #fff;
   background-color: var(--pink);
   padding: 12px 15px;
-  width:50%;
+  width: 50%;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -151,69 +147,66 @@ textarea {
   transform: scale(0.9);
 }
 
-.btn-submit{
+.btn-submit {
   display: flex;
   justify-content: center;
   width: 100%;
-
 }
 
 /* FOOTER */
 
 footer {
-    width: 100%;
-    background: var(--pink);
-    height: 100px;
-    margin-top: 0px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .ancho-footer {
-    margin-top: 30px;
-  }
-  
-  .redes {
-  
-    display: inline-block;
-  }
-  
-  .bi-facebook {
-    font-size: 30px;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
-    color: #fff;
-  }
-  
-  .bi-facebook:hover {
-    color: #3b5998;
-  }
-  
-  .bi-whatsapp {
-    font-size: 30px;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
-    color: #fff;
-  }
-  
-  .bi-whatsapp:hover {
-    color: #25D366;
-  }
-  
-  .bi-instagram {
-    font-size: 30px;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
-    color: #fff;
-  }
-  
-  .bi-instagram:hover {
-    color: #8a3ab9;
-  }
-  
+  width: 100%;
+  background: var(--pink);
+  height: 100px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.ancho-footer {
+  margin-top: 30px;
+}
+
+.redes {
+  display: inline-block;
+}
+
+.bi-facebook {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.bi-facebook:hover {
+  color: #3b5998;
+}
+
+.bi-whatsapp {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.bi-whatsapp:hover {
+  color: #25d366;
+}
+
+.bi-instagram {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.bi-instagram:hover {
+  color: #8a3ab9;
+}
 
 /* MEDIA QUEIRES*/
 
@@ -229,13 +222,10 @@ footer {
     margin-left: 0.7em;
   }
 
-  .main-img{
+  .main-img {
     width: 40%;
     margin: 1rem;
-}
-
-
-
+  }
 }
 
 @media only screen and (min-width: 720px) {
@@ -253,28 +243,24 @@ footer {
   }
   .small-group {
     width: 45%;
-   
   }
 
-  .btn-submit{
+  .btn-submit {
     display: flex;
     justify-content: center;
     width: 100%;
-
   }
   form {
     padding: 2.5em;
   }
-  .section-form{
+  .section-form {
     margin: 5rem;
   }
 
-  .main-img{
+  .main-img {
     width: 40%;
     margin: 1rem;
-}
-
- 
+  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -284,14 +270,12 @@ footer {
     padding-left: 6em;
     padding-right: 6em;
   }
-  .section-form{
+  .section-form {
     margin: 5rem;
   }
 
-  .main-img{
+  .main-img {
     width: 40%;
     margin: 1rem;
-}
-
-
+  }
 }
