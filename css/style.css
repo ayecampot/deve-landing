@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+html {
+  --clr-grey-800: #333;
+  --clr-grey-200: #f3f3f3;
+  --pink: #E22D8C;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* HEADER Y NAV */
+
+header {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.brand{
+    transition: all 0.2s ease-in-out;
+}
+
+.brand:hover{
+    transform: scale(0.9);
+}
+
+.menu-md li{
+color: var(--clr-grey-800);
+font-weight: 600;
+} 
+
+.menu-md li:hover{
+color: var(--pink);
+font-weight: 600;
+} 
+
+/* MAIN */
+main {
+  background: var(--clr-grey-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+.main-img{
+    width: 90%;
+    margin: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.main-img:hover{
+    transform: scale(1.05);
+}
+
+.text-margin{
+margin: 0.9rem;
+}
+
+
+
+/* fORM */
+
+form {
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 20px 0px rgba(173, 173, 173, 1);
+  -moz-box-shadow: 5px 5px 20px 0px rgba(173, 173, 173, 1);
+  box-shadow: 5px 5px 20px 0px rgba(173, 173, 173, 1);
+  padding: 1.5em;
+}
+
+h1{
+    color:var(--pink);
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: left;
+
+  }
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input,
+select {
+  padding: 10px 16px;
+  width: 100%;
+  outline: 0;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #ededed;
+  font-size: 14px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.textarea-div {
+  width: 100%;
+}
+textarea {
+  padding: 10px;
+  width: 100%;
+  outline: 0;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #ededed;
+  font-size: 14px;
+  height: 100px;
+}
+.btn {
+    color:#fff;
+  background-color: var(--pink);
+  padding: 12px 15px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  background-color: #e0519c;
+  transform: scale(0.9);
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background: var(--pink);
+    height: 100px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ancho-footer {
+    margin-top: 30px;
+  }
+  
+  .redes {
+  
+    display: inline-block;
+  }
+  
+  .bi-facebook {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+  }
+  
+  .bi-facebook:hover {
+    color: #3b5998;
+  }
+  
+  .bi-whatsapp {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+  }
+  
+  .bi-whatsapp:hover {
+    color: #25D366;
+  }
+  
+  .bi-instagram {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+  }
+  
+  .bi-instagram:hover {
+    color: #8a3ab9;
+  }
+  
+
+/* MEDIA QUEIRES*/
+
+@media only screen and (min-width: 570px) {
+  .menu-md {
+    display: flex;
+    flex-flow: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .menu-md li {
+    margin-left: 0.7em;
+  }
+
+  .main-img{
+    width: 40%;
+    margin: 1rem;
+}
+
+
+
+}
+
+@media only screen and (min-width: 720px) {
+  footer,
+  header {
+    padding-left: 3em;
+    padding-right: 3em;
+    flex-direction: row;
+  }
+
+  .large-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .small-group {
+    width: 45%;
+  }
+  form {
+    padding: 2.5em;
+  }
+  .section-form{
+    margin: 5rem;
+  }
+
+  .main-img{
+    width: 40%;
+    margin: 1rem;
+}
+
+ 
+}
+
+@media only screen and (min-width: 800px) {
+  footer,
+  header {
+    flex-direction: row;
+    padding-left: 6em;
+    padding-right: 6em;
+  }
+  .section-form{
+    margin: 5rem;
+  }
+
+  .main-img{
+    width: 40%;
+    margin: 1rem;
+}
+
+
+}
